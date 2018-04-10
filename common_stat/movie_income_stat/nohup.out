@@ -1,0 +1,14 @@
+开始导入2017-01-11~2017-01-12日的数据到hive中
+从数据库查询数据结束，文件名为/home/zhaochunlong/boss_stat/common_stat/load_vip_letv/data/t_letv_vip_payment_all_20170111.txt
+
+Logging initialized using configuration in jar:file:/letv/usr/local/apache-hive-1.2.1-bin/lib/hive-common-1.2.1.jar!/hive-log4j.properties
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/letv/usr/local/tez-0.8.4-minimal/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/letv/usr/local/hadoop-2.7.2/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Loading data to table dm_boss.t_letv_vip_payment_all partition (dt=20170111)
+Partition dm_boss.t_letv_vip_payment_all{dt=20170111} stats: [numFiles=1, numRows=0, totalSize=11629419, rawDataSize=0]
+OK
+Time taken: 3.911 seconds
+导入/home/zhaochunlong/boss_stat/common_stat/load_vip_letv/data/t_letv_vip_payment_all_20170111.txt到hive完成
